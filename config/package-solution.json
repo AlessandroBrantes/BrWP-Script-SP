@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "br-wp-script-sp-client-side-solution",
+    "id": "de768948-96c7-4ebd-8264-32e91251af86",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.4"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "BrWP-Script-SP description"
+      },
+      "longDescription": {
+        "default": "BrWP-Script-SP description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "br-wp-script-sp Feature",
+        "description": "The feature that activates elements of the br-wp-script-sp solution.",
+        "id": "bb095923-f5c5-48da-811f-c40a713f82db",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/br-wp-script-sp.sppkg"
+  }
+}
