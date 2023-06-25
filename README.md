@@ -5,7 +5,7 @@ This guide will help you clone this repository, create the .sppkg file, upload i
 
 This webpart is especially useful for inserting customizable HTML, CSS, and scripts onto your SharePoint Online Team site. This solution was developed out of a need for a reliable dropdown menu on a Team site, and we hope it may be useful to you as well.
 
-Additionally, there is a series of live streams on the YouTube channel '@AlessandroBrantes' that provide further guidance and a better understanding of the project.
+Additionally, there is a series of live streams on the YouTube channel @AlessandroBrantes https://www.youtube.com/@AlessandroBrantes/streams that provide further guidance and a better understanding of the project.
 
 Prerequisites
 Ensure you have the following installed on your computer:
