@@ -1,5 +1,52 @@
 # br-wp-script-sp
 
+How to Use This Webpart
+This guide will help you clone this repository, create the .sppkg file, upload it to SharePoint Online, and finally install the webpart on a Team site. Even if you're not a seasoned programmer, these step-by-step instructions should be easy to follow.
+
+This webpart is especially useful for inserting customizable HTML, CSS, and scripts onto your SharePoint Online Team site. This solution was developed out of a need for a reliable dropdown menu on a Team site, and we hope it may be useful to you as well.
+
+Additionally, there is a series of live streams on the YouTube channel '@AlessandroBrantes' that provide further guidance and a better understanding of the project.
+
+Prerequisites
+Ensure you have the following installed on your computer:
+
+Git
+Node.js
+gulp (Install it globally using npm install -g gulp)
+Yeoman and SharePoint client-side development tools (Install them globally using npm install -g yo @microsoft/generator-sharepoint)
+
+Step 1: Clone the Repository
+Open your command prompt.
+Navigate to the directory where you want to clone the repository by using the cd command, for example: cd C:\Users\YourUsername\Documents.
+Clone the repository using the command: git clone https://github.com/AlessandroBrantes/BrWP-Script-SP.git.
+
+Step 2: Install the Dependencies
+Navigate to the cloned repository's directory: cd BrWP-Script-SP.
+Install the dependencies by running: npm install.
+
+Step 3: Build the Project
+Build the project by running: gulp bundle --ship.
+Package the solution by running: gulp package-solution --ship.
+This will create a .sppkg file in the ./sharepoint/solution directory.
+
+Step 4: Upload the .sppkg File to SharePoint Online
+Go to your SharePoint Admin Center (You must have admin permissions).
+Click on "More features" on the left-hand menu.
+Under "Apps", click on "Open".
+Click on "App Catalog".
+Click on "Distribute apps for SharePoint".
+Upload the .sppkg file created in the previous step.
+A dialog will appear. Make sure the "Make this solution available to all sites in the organization" checkbox is checked, and click "Deploy".
+
+Step 5: Install the Webpart on Your Team Site
+Go to the SharePoint Team site where you want to add the webpart.
+Click on the gear icon on the top right corner and select "Add an app".
+Find your app in the library and click on it to install it.
+Once the app is installed, edit a page or create a new one.
+Click on "+ Add webpart" and you will find your webpart under the "Custom" category.
+
+You have now successfully cloned the repository, built the webpart, and added it to your SharePoint Team site. Enjoy!
+
 ## Summary
 
 Short summary on functionality and used technologies.
